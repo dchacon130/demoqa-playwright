@@ -1,0 +1,24 @@
+{
+  "name": "demoqa-playwright",
+  "version": "1.0.0",
+  "description": "Playwright",
+  "keywords": [
+    "automation"
+  ],
+  "license": "ISC",
+  "author": "Diego Chacon <dchacon130@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:codegen": "npx playwright codegen",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "test:@test": "npx playwright test -g @test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  }
+}

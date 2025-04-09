@@ -1,0 +1,11 @@
+
+# Dependencias
+node_modules/
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/blob-report/
+# Environment
+.env
+.env.local
