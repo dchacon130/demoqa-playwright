@@ -2,4 +2,5 @@ export default {
     home: '/',
     elements: '/elements',
     texBox: '/text-box',
+    checkbox: '/checkbox'
 }
