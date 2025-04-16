@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('Test the checkboxs in the page', () => {
 
-    test('@test The user expand the arrows', async () => {
+    test('The user expand the arrows', async () => {
         await checkBoxPage.clickOnArrow(0);
         await checkBoxPage.clickOnArrow(1);
         await checkBoxPage.clickOnArrow(2);
