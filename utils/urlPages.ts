@@ -2,5 +2,6 @@ export default {
     home: '/',
     elements: '/elements',
     texBox: '/text-box',
-    checkbox: '/checkbox'
+    checkbox: '/checkbox',
+    radioButton: '/radio-button'
 }
